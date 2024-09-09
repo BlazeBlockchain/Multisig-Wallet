@@ -1,0 +1,20 @@
+{
+  "name": "multisig-wallet-v2",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "hardhat test",
+    "start": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.10"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "web3": "^4.12.1"
+  }
+}
